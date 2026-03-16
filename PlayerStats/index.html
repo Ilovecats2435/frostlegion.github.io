@@ -79,8 +79,8 @@ toggles.forEach(btn=>{btn.addEventListener('click',()=>{const show=document.getE
       { rank: 1, name: "Ilikegrapes", points: 125 },
       { rank: 2, name: "Ilovecats2435", points: 100 }
     ];
-
-    
+    const hero = document.querySelector('.hero');
+hero.appendChild(container);
 
     const container = document.createElement('div');
 container.style.margin = '20px auto'; // Centers it with spacing
@@ -112,6 +112,6 @@ mainContent.appendChild(container);
     document.body.appendChild(container);
     
   </script>
-  
+
 </body>
 </html>
