@@ -74,9 +74,6 @@ if(menuBtn){menuBtn.addEventListener('click',()=>{leftMenu?.classList.toggle('sh
 const toggles=document.querySelectorAll('.toggle');
 toggles.forEach(btn=>{btn.addEventListener('click',()=>{const show=document.getElementById(btn.dataset.target); if(!show) return; const hidden=show.classList.toggle('hidden'); btn.textContent=(hidden?'▸':'▾')+' '+btn.textContent.slice(2);});});
 </script>
-</body>
-</html>
-</div>
   <script>
     const stats = [
       { rank: 1, name: "Ilikegrapes", points: 125 },
@@ -107,3 +104,6 @@ toggles.forEach(btn=>{btn.addEventListener('click',()=>{const show=document.getE
     });
 
     document.body.appendChild(container);
+  </script>
+</body>
+</html>
